@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1d2b3a"
+    android:gravity="center"
+    tools:context=".visuDisciplinasFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione o curso:"
+        android:textColor="#ffffff" />
+
+    <Spinner
+        android:id="@+id/spinner_curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione a turma:"
+        android:textColor="#ffffff" />
+
+    <Spinner
+        android:id="@+id/spinner_turma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_visualizar_Disciplinas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Visualizar Disciplinas"
+        android:backgroundTint="#00dfc4"
+        android:textColor="#1d2b3a" />
+
+</LinearLayout>

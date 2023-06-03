@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1d2b3a"
+    android:gravity="center"
+    tools:context=".visuHorarioFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione o curso:"
+        android:textColor="#ffffff" />
+
+    <Spinner
+        android:id="@+id/spinner_curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione a turma:"
+        android:textColor="#ffffff" />
+
+    <Spinner
+        android:id="@+id/spinner_turma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione o semestre:"
+        android:textColor="#ffffff" />
+
+    <Spinner
+        android:id="@+id/spinner_semestre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_visualizar_horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Visualizar Horário"
+        android:backgroundTint="#00dfc4"
+        android:textColor="#1d2b3a" />
+
+    <Button
+        android:id="@+id/btn_gerar_horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Gerar Horário"
+        android:backgroundTint="#00dfc4"
+        android:textColor="#1d2b3a" />
+
+    <TableLayout
+        android:id="@+id/table_layout_visualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:padding="16dp" />
+
+    <TableLayout
+        android:id="@+id/table_layout_gerar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+</LinearLayout>

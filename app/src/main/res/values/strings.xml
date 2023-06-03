@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ClassArrange2</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="recuperar_conta">Recuperar conta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

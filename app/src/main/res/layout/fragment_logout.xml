@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1d2b3a"
+    tools:context=".LogoutFragment"
+    android:padding="16dp">
+
+    <!-- TextView para exibir a descrição criativa do aplicativo -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/classarrange" />
+
+    <TextView
+        android:id="@+id/textViewDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="ClassArrange - Organize sua vida acadêmica!"
+        android:textColor="#00dfc4"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Campo para exibir "Create By" -->
+    <TextView
+        android:id="@+id/textViewCreateBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Create By"
+        android:textColor="#00dfc4"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Campo para exibir o nome fornecido -->
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Enayatolah Badrú"
+        android:textColor="#00dfc4"
+        android:textSize="17sp" />
+
+    <!-- Botão para deslogar -->
+    <Button
+        android:id="@+id/buttonDeslogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#00dfc4"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Deslogar"
+        android:textColor="#1d2b3a"
+        android:textStyle="bold" />
+
+</LinearLayout>

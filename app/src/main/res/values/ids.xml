@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextNome" type="id" />
+    <item name="editTextCurso" type="id" />
+    <item name="editTextAno" type="id" />
+    <item name="editTextSemestre" type="id" />
+    <item name="buttonCriar" type="id" />
+    <item name="buttonGerarHorario" type="id" />
+    <item name="tableLayoutHorario" type="id" />
+    <item name="textViewHorario" type="id" />
+</resources>
